@@ -1,10 +1,10 @@
-# 📊 SKU Demand Forecasting Tool
+# SKU Demand Forecasting Tool
 
 A Streamlit-based web application that automatically identifies the best forecasting model per SKU using a **Champion-Challenger** tournament approach across 7 forecasting algorithms.
 
 ---
 
-## 🧠 About the Project
+## About the Project
 
 This tool was built to simplify demand planning by automating model selection. Instead of manually tuning forecasting models, it:
 
@@ -16,7 +16,7 @@ This tool was built to simplify demand planning by automating model selection. I
 - Displays an **interactive Plotly chart** of historical demand vs. forecast
 - Exports the 12-month forecast as a **downloadable CSV**
 
-### 🔬 Models Evaluated
+### Models Evaluated
 
 | # | Model | Description |
 |---|-------|-------------|
@@ -30,7 +30,7 @@ This tool was built to simplify demand planning by automating model selection. I
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Demand_Forecaster/
@@ -42,7 +42,7 @@ Demand_Forecaster/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 
@@ -74,7 +74,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-> ✅ You should see `(venv)` at the start of your terminal prompt once activated.
+> You should see `(venv)` at the start of your terminal prompt once activated.
 
 ---
 
@@ -98,7 +98,7 @@ The app will open automatically in your browser at `http://localhost:8501`.
 
 ---
 
-## 📊 Input File Format
+##  Input File Format
 
 The app expects an Excel file named `Forecasting data.xlsx` with a sheet called **`Demand History`**.
 
@@ -108,7 +108,7 @@ The app expects an Excel file named `Forecasting data.xlsx` with a sheet called 
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 Create a `requirements.txt` with the following content if not present:
 
@@ -125,7 +125,7 @@ openpyxl
 
 ---
 
-## 🚀 Usage
+## Usage
 
 1. Launch the app with `streamlit run app.py`
 2. Upload `Forecasting data.xlsx` using the **sidebar uploader**
